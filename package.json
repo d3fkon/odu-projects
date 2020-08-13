@@ -1,0 +1,43 @@
+{
+  "name": "git_initiator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3fkon/pra_git_automator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d3fkon/pra_git_automator/issues"
+  },
+  "homepage": "https://github.com/d3fkon/pra_git_automator#readme",
+  "dependencies": {
+    "@octokit/oauth-login-url": "^2.1.2",
+    "@octokit/rest": "^16.28.3",
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "create-react-app": "^3.0.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.5",
+    "express-validation": "^1.0.2",
+    "express-validator": "^6.1.1",
+    "filenamify": "^4.1.0",
+    "git-commit-push-via-github-api": "^1.0.2",
+    "joi": "^14.3.1",
+    "js-yaml": "^3.13.1",
+    "json2yaml": "^1.1.0",
+    "mysql": "^2.17.1",
+    "react-data-grid": "^6.1.0",
+    "shortid": "^2.2.14",
+    "uniqid": "^5.0.3",
+    "yaml-to-json": "^0.3.0",
+    "yamljs": "^0.3.0"
+  }
+}
